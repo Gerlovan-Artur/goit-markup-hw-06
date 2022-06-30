@@ -47,6 +47,65 @@
             </div>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal"> 
+                    <div class="form-modal">
+
+                    <form class="hero-form">
+
+                        <b>Оставьте свои данные, мы вам перезвоним</b>
+                       
+                        <div class="form-field">
+                        <label for="name">Имя</label>
+                        <input 
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder=""
+                        autofocus
+                        />
+                        </div>
+
+                        <div class="form-field">
+                            <label for="tel">Телефон</label>
+                            <input
+                            type="tel"
+                            name="tel"
+                            id="tel"
+                            placeholder=""
+                            />
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Почта</label>
+                            <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            />
+                        </div>
+
+                         <div class="form-field">
+                            <label for="comment">Комментарий</label>
+                            <textarea
+                                name="comment"
+                                id="comment"
+                                rows="5"
+                                placeholder=""
+                                ></textarea>
+                         </div>   
+
+                         <div class="form-field">
+                            <input type="checkbox"
+                                    name="policy"
+                                    id="policy"/> 
+                            <label for="policy">Соглашаюсь с рассылкой и принимаю<a href="#" class="policy-link link">Условия договора</a> </label>
+                         </div>
+
+                         <button type="submit">Отправить</button>
+
+
+
+                    </form>
+                    </div>
                     <button class="button-close" type="button" name="Закрыть окно" data-modal-close>
                         <img src="./icons/close.svg" class="close" width="30" height="30" aria-label="Закрыть окно">
                     </button>
@@ -359,6 +418,7 @@
                 <a href="tel:+380961111111" class="tel link">+38 096 111 11 11</a>
             </address>
         </div>
+
         <div class="follow">
         <span class="follow-text">присоединяйтесь</span>
 
@@ -394,6 +454,16 @@
             </li>
         </ul>
         </div>
+        <div class="form-submit">
+        <form class="submit">
+            <b class="text-submit">Подпишитесь на рассылку</b>
+            <div class="input-button">
+            <input type="email" name="mail" placeholder="E-mail" class="input-submit">
+            <button type="submit" class="button-submit">Подписаться<svg class="icon-send" width="24" height="24" ><use href="images/icons.svg#icon-send"></use> </svg></button>
+            </div>
+        </form>
+        </div>
+
         </div>
         </div>
     </footer>

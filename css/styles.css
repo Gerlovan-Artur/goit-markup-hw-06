@@ -623,6 +623,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
+    margin-right: 93px;
 }
 .follow-text {
     margin-bottom: 20px;
@@ -671,6 +672,63 @@ footer {
     margin-left: 10px;
 }
 
+/*form*/
+
+.form-submit {
+    display: inline-flex;
+    
+}
+.submit {
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-button {
+    margin-top: 20px;
+    
+}
+.input-submit {
+    margin-right: 12px;
+
+    width: 358px;
+    height: 50px;
+
+}
+.text-submit {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--button-text);
+
+}
+.button-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    padding: 0;
+    
+    
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #2196F3;
+
+    font-weight: 700;
+    line-height: 1.88;
+    
+    color: var(--button-text);
+    letter-spacing: 0.06;
+
+
+}
+.icon-send {
+    display: inline-block;
+    margin-left: 10px;
+}
 /*portfolio*/
 .filtr {
     padding-top: 94px;
